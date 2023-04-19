@@ -1,0 +1,83 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 10%;
+	padding: 0;
+}
+
+nav {
+	background-color: #f40606;
+	color: white;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+nav ul li a:hover {
+	background-color: white;
+	color: black;
+}
+
+h1 h3 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#listado {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 50px;
+}
+
+.digimon {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 300px;
+}
+
+.digimon img {
+	width: 100%;
+	height: auto;
+}
+
+.digimon h2 {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.digimon h3 {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#detalle {
+	margin-top: 10px;
+	display: none;
+}
+
+#detalle img {
+	display: block;
+	margin: 0 auto;
+}
+
+#detalle h2 {
+	text-align: center;
+	margin-top: 10px;
+}
