@@ -10,26 +10,30 @@
 </head>
 <body class="container">
 	<!--  -->
-	<nav><h1>Evaluacion modulo 2.0 Digimones</h1></nav>
-    
-	
-	<!--Como es una api, en algun momento no apareceran las
+	<header>
+		<nav><h1>Evaluacion modulo 2.0 Digimones</h1></nav>
+		<!--Como es una api, en algun momento no apareceran las
 	imagenes, pero hay una demora de conexcion al servidor  -->
-	
+		<button id="btnMostrar">Mostrar</button>
+		<label for="numElementos">Mostrar:</label>
+		<select id="numElementos" name="numElementos">
+		  <option value="10" selected>10</option>
+		  <option value="20">20</option>
+		  <option value="50">50</option>
+		  <option value="100">100</option>
+		</select>
+	  </header>
 	  <main>
-		<section id="listado"></section>
-			<section id="detalle">
-		  		<div id="imagen"></div>
-		  		<div id="informacion"></div>
-		    </section>
+		<div id="listado"></div>
+		<div id="detalle">
+		  <div id="imagen"></div>
+		</div>
 	  </main>
-
+	  <script src="/asetts/js/script.js"></script>
+	
 	  
-	 <!--  --> 
-	<footer>
-     
-	</footer>  
      <!--Simon Velasquez Carcamo  -->
-	<script src="/asetts/js/script.js"></script>
+	
+
 </body>
 </html>
